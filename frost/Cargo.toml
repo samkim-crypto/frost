@@ -1,0 +1,12 @@
+[package]
+name = "frost"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22"
+curve25519-dalek = { version = "=4.1.2", features = ["rand_core", "digest"] }
+sha2 = { version = "0.10", default-features = false }
+rand = "0.8"
+bs58 = "0.5.1"
+thiserror = "1.0"
